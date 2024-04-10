@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: rgb(20, 19, 19);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+header {
+    display: flex;
+    height: 110px;
+    background: rgb(44, 53, 52);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header h1 {
+    justify-content: center;
+    color: #ADBDBB;
+    text-transform: uppercase;
+
+    padding-bottom: 0;
+    margin-bottom: 2px;
+}
+
+header h6 {
+    font-size: 16px;
+    color: #657373;
+    padding-top: 0;
+    padding-left: 6px;
+    margin: 0;
+    align-items: center;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+}
+
+header h1 {
+    border-bottom: solid 3px gray;
+    font-size: 48px;
+}
+
+.img {
+    display: flex;
+    height: 480px;
+    background-image: url("../img/casas-de-luxo.webp");
+    background-size: cover;
+    background-position: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: flex-end;
+}
+
+.content {
+    width: 372px;
+    background: rgba(7, 8, 8, 0.6);
+    margin-right: 10%;
+    color: rgb(230, 230, 230);
+    padding-left: 3%;
+    padding-right: 40px;
+    padding-top: 8px;
+
+
+}
+
+.content h3 {
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+
+.content p {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin-top: 36px;
+    font-size: 20px;
+
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    background: rgba(130, 143, 141, 0.5);
+    margin-top: 4px;
+}
+
+ul a:hover {
+    background: rgba(130, 143, 141, 0.8);
+}
+
+.login {
+    display: flex;
+    background: rgb(44, 53, 52);
+    height: 350px;
+    padding-right: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+form {
+    background: rgba(7, 8, 8);
+    color: rgb(120, 120, 120);
+}
+
+#i1 {
+    display: none;
+}
+
+#i2 {
+    z-index: 1;
+    height: 350px;
+    width: 446px;
+    position: absolute;
+    right: 177px;
+}
+
+form input {
+
+    border: 2px solid orange;
+}
+
+form p {
+    text-transform: uppercase;
+    color: #657373;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 28px;
+    padding-top: 0;
+}
+
+.info {
+    flex: 48%;
+    padding-left: 80px;
+    padding-right: 70px;
+    padding-top: 34px;
+    padding-bottom: 100px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(104, 124, 122);
+}
+
+.info p {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+footer {
+    display: flex;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.788);
+    padding-left: 14%;
+    align-items: center;
+    background: rgb(22, 26, 26);
+    /* padding-bottom: 20px; */
+}
+
+
+.botao {
+    background: #f72e0b;
+    color: white;
+    font-size: 30px;
+    height: 58px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background: #d96955;
+    transition: 0.6s;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+
+footer a:hover {
+    font-size: 32px;
+    transition: 0.4s;
+}
+
+#b1 {
+    margin-left: 18px;
+    color: #f72e0b;
+    font-size: 70px;
+}
+
+#b2 {
+    margin-left: 1px;
+    color: #f72e0b;
+    font-size: 90px;
+}
